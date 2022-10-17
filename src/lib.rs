@@ -95,6 +95,9 @@ pub mod backup;
 #[cfg_attr(docsrs, doc(cfg(feature = "blob")))]
 pub mod blob;
 mod busy;
+#[cfg(feature = "serialize")]
+#[cfg_attr(docsrs, doc(cfg(feature = "serialize")))]
+mod serialize;
 mod cache;
 #[cfg(feature = "collation")]
 #[cfg_attr(docsrs, doc(cfg(feature = "collation")))]

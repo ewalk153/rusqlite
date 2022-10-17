@@ -36,6 +36,7 @@ members = ["libsqlite3-sys"]
 load_extension = []
 # hot-backup interface: 3.6.11 (2009-02-18)
 backup = []
+serialize = []
 # sqlite3_blob_reopen: 3.7.4
 blob = []
 collation = []
@@ -85,6 +86,7 @@ winsqlite3 = ["libsqlite3-sys/winsqlite3"]
 modern-full = [
     "array",
     "backup",
+    "serialize",
     "blob",
     "modern_sqlite",
     "chrono",
